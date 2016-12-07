@@ -1,4 +1,5 @@
 /*
+ Shellcode nullbyte-free
  Executa uma shell com a syscall execve() em arquitetura x86
  by vold (sysh0ck)
  para executar em sistema de 64 bits
